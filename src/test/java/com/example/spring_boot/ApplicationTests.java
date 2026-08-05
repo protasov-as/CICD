@@ -10,7 +10,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@SpringBootTest
+@SpringBootTest(classes=ApplicationTests.class)
 @ExtendWith(SpringExtension.class)
 class ApplicationTests {
 
