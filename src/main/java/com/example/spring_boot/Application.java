@@ -1,12 +1,15 @@
 package com.example.spring_boot;
 
 
-//@SpringBootApplication
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Application {
 
 	public static void main(String[] args) {
 
-//		SpringApplication.run(Application.class, args);
+		SpringApplication.run(Application.class, args);
 
 		int i = 5;
 		int[] arr = {0,1,2,3};
