@@ -44,6 +44,6 @@ class ApplicationTests {
 	@DisplayName("Проверка Mockito")
 	public void basicMockTest() {
 		Mockito.when(calc.sum(77, 77)).thenReturn(7777);
-		assertEquals(7777, calc.sum(77, 77));
+		assertEquals(777711, calc.sum(77, 77));
 	}
 }
