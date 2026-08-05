@@ -28,5 +28,7 @@ public class Application {
 		}
 
 		System.out.println("after ex");
+
+		System.out.println("FINALLY");
 	}
 }
