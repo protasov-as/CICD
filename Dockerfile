@@ -20,4 +20,4 @@ COPY --from=build /workspace/target/app.jar app.jar
 
 EXPOSE 18080
 
-ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]\
